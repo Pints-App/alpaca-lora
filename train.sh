@@ -1,0 +1,1 @@
+python finetune.py --base_model='../llama-7b-hf/' --resume_from_checkpoint='../alpaca-lora-7b/' --data_path='../pints-gpt-data/final.json' --output_dir='../combined_model_outputs/' --wandb_project='experiment1' --wandb_run='run1' --lora_r=16s

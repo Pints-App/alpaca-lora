@@ -33,8 +33,8 @@ def train(
     # training hyperparams
     batch_size: int = 256,
     micro_batch_size: int = 4,
-    num_epochs: int = 3,
-    learning_rate: float = 3e-5,
+    num_epochs: int = 10,
+    learning_rate: float = 1e-4,
     cutoff_len: int = 256,
     val_set_size: int = 500,
     # lora hyperparams
